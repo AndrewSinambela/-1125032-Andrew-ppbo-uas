@@ -11,11 +11,11 @@ public class Kerucut extends Object3D {
     }
     
     public double hitungLuasPermukaan(){
-        
+        return 3.14*jarijari*(tinggi+jarijari);
     }
 
     public double hitungVolume(){
-        
+        return 1/3 * 3.14 *jarijari*jarijari*tinggi;
     }
 
     @Override 

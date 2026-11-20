@@ -13,11 +13,11 @@ public class Balok extends Object3D {
     }
     
     public double hitungLuasPermukaan(){
-        
+        return 2*(panjang*lebar + panjang*tinggi + lebar*tinggi);
     }
 
     public double hitungVolume(){
-        
+        return panjang*lebar*tinggi;
     }
 
     @Override 

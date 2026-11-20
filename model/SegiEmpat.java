@@ -1,23 +1,25 @@
 package model;
 
 public class SegiEmpat extends Object2D{
-    private double sisi;
+    private double panjang;
+    private double lebar;
 
-    public SegiEmpat(String label,double sisi){
+    public SegiEmpat(String label,double panjang,double lebar){
         super(label);
-        this.sisi = sisi;
+        this.panjang = panjang;
+        this.lebar = lebar;
     }
     
     public double hitungLuas(){
-        
+        return panjang * lebar;
     }
 
     public double hitungKeliling(){
-        
+        return 2*(panjang+lebar);
     }
 
     @Override 
     public String[][] getKeyValueDetails(){
-        
+
     }
 }

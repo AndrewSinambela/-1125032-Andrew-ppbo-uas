@@ -9,11 +9,11 @@ public class Kubus extends Object3D{
     }
     
     public double hitungLuasPermukaan(){
-        
+        return 6*sisi*sisi;
     }
 
     public double hitungVolume(){
-        
+        return sisi*sisi*sisi;
     }
 
     @Override 

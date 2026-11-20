@@ -9,11 +9,11 @@ public class Lingkaran extends Object2D {
     }
     
     public double hitungLuas(){
-        
+        return 3.14*sisi*sisi;
     }
 
     public double hitungKeliling(){
-        
+        return 3.14*2*sisi;
     }
 
     @Override 
