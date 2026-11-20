@@ -12,6 +12,7 @@ public class Balok extends Object3D {
         this.tinggi = tinggi;
     }
     
+    
     public double hitungLuasPermukaan(){
         return 2*(panjang*lebar + panjang*tinggi + lebar*tinggi);
     }
@@ -23,5 +24,35 @@ public class Balok extends Object3D {
     @Override 
     public String[][] getKeyValueDetails(){
         
+    }
+
+
+    public double getPanjang() {
+        return panjang;
+    }
+
+
+    public void setPanjang(double panjang) {
+        this.panjang = panjang;
+    }
+
+
+    public double getLebar() {
+        return lebar;
+    }
+
+
+    public void setLebar(double lebar) {
+        this.lebar = lebar;
+    }
+
+
+    public double getTinggi() {
+        return tinggi;
+    }
+
+
+    public void setTinggi(double tinggi) {
+        this.tinggi = tinggi;
     }
 }

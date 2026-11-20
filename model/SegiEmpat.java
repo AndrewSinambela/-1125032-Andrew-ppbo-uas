@@ -10,6 +10,7 @@ public class SegiEmpat extends Object2D{
         this.lebar = lebar;
     }
     
+    
     public double hitungLuas(){
         return panjang * lebar;
     }
@@ -21,5 +22,25 @@ public class SegiEmpat extends Object2D{
     @Override 
     public String[][] getKeyValueDetails(){
 
+    }
+
+
+    public double getPanjang() {
+        return panjang;
+    }
+
+
+    public void setPanjang(double panjang) {
+        this.panjang = panjang;
+    }
+
+
+    public double getLebar() {
+        return lebar;
+    }
+
+
+    public void setLebar(double lebar) {
+        this.lebar = lebar;
     }
 }

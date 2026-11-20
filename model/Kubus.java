@@ -8,6 +8,7 @@ public class Kubus extends Object3D{
         this.sisi =sisi;
     }
     
+    
     public double hitungLuasPermukaan(){
         return 6*sisi*sisi;
     }
@@ -19,5 +20,15 @@ public class Kubus extends Object3D{
     @Override 
     public String[][] getKeyValueDetails(){
         
+    }
+
+
+    public double getSisi() {
+        return sisi;
+    }
+
+
+    public void setSisi(double sisi) {
+        this.sisi = sisi;
     }
 }

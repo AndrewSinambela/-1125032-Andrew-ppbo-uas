@@ -10,6 +10,7 @@ public class Kerucut extends Object3D {
         this.tinggi = tinggi;  
     }
     
+    
     public double hitungLuasPermukaan(){
         return 3.14*jarijari*(tinggi+jarijari);
     }
@@ -20,6 +21,26 @@ public class Kerucut extends Object3D {
 
     @Override 
     public String[][] getKeyValueDetails(){
-        
+        return 
+    }
+
+
+    public double getJarijari() {
+        return jarijari;
+    }
+
+
+    public void setJarijari(double jarijari) {
+        this.jarijari = jarijari;
+    }
+
+
+    public double getTinggi() {
+        return tinggi;
+    }
+
+
+    public void setTinggi(double tinggi) {
+        this.tinggi = tinggi;
     }
 }
