@@ -21,7 +21,7 @@ public class Kerucut extends Object3D {
 
     @Override 
     public String[][] getKeyValueDetails(){
-        return 
+        return [];
     }
 
 
